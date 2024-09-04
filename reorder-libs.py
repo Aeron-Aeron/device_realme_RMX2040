@@ -3,6 +3,7 @@
 # Copyright (C) 2021 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
+# Maybe not needed
 #
 
 from functools import cmp_to_key
