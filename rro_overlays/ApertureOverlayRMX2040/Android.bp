@@ -1,6 +1,6 @@
 runtime_resource_overlay {
-    name: "TelephonyOverlayRMX2020",
+    name: "ApertureOverlayRMX2040",
     sdk_version: "current",
     resource_dirs: ["res"],
-    vendor: true,
+    system_ext_specific: true,
 }

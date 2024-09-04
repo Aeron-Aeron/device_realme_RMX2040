@@ -10,10 +10,10 @@ DEVICE_PATH := device/realme/RMX2040
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
 # Call proprietary blob setup
-$(call inherit-product, vendor/realme/RMX2020/RMX2020-vendor.mk)
+$(call inherit-product, vendor/realme/RMX2040/RMX2040-vendor.mk)
 
 # IMS
-$(call inherit-product, vendor/realme/RMX2020-ims/RMX2020-ims.mk)
+$(call inherit-product, vendor/realme/RMX2040-ims/RMX2040-ims.mk)
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 

@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "SettingsProviderOverlayRMX2020",
+    name: "SystemUIOverlayRMX2040",
     sdk_version: "current",
     resource_dirs: ["res"],
     vendor: true,

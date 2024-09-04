@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2022 The Android Open Source Project
+<!-- Copyright (C) 2019 The Android Open Source Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.frameworksres.overlay.RMX2020">
-
+    package="com.android.carrierconfig.RMX2040">
     <application android:hasCode="false" />
     <overlay
-      android:targetPackage="android"
+      android:targetPackage="com.android.carrierconfig"
       android:isStatic="true"
-      android:priority="1"/>
+      android:priority="0"/>
 </manifest>

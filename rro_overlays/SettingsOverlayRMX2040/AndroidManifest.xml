@@ -3,10 +3,10 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.telephony.overlay.RMX2020">
+    package="com.android.settings.overlay.RMX2040">
     <application android:hasCode="false" />
     <overlay
-      android:targetPackage="com.android.phone"
+      android:targetPackage="com.android.settings"
       android:isStatic="true"
       android:priority="1"/>
 </manifest>

@@ -1,5 +1,5 @@
 runtime_resource_overlay {
-    name: "CarrierConfigOverlayRMX2020",
+    name: "CarrierConfigOverlayRMX2040",
     theme: "CarrierConfigOverlay",
     sdk_version: "current",
     product_specific: true,
