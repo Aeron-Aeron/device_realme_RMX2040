@@ -16,15 +16,15 @@ $(call inherit-product, device/realme/RMX2020/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_RMX2020
-PRODUCT_DEVICE := RMX2020
+PRODUCT_NAME := aosp_RMX2040
+PRODUCT_DEVICE := RMX2040
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMX2020
+PRODUCT_MODEL := RMX2040
 PRODUCT_MANUFACTURER := realme
 
-PRODUCT_SYSTEM_MODEL := RMX2020
-PRODUCT_SYSTEM_NAME := RMX2020
-PRODUCT_SYSTEM_DEVICE := RMX2020
+PRODUCT_SYSTEM_MODEL := RMX2040
+PRODUCT_SYSTEM_NAME := RMX2040
+PRODUCT_SYSTEM_DEVICE := RMX2040
 
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \

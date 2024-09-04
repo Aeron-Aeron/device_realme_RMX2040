@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/realme/RMX2020
+DEVICE_PATH := device/realme/RMX2040
 
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
@@ -126,7 +126,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.RMX2020
+    android.hardware.biometrics.fingerprint@2.1-service.RMX2040
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
@@ -188,7 +188,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.RMX2020
+    android.hardware.light-service.RMX2040
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -335,15 +335,15 @@ PRODUCT_PACKAGES += \
 
 # Runtime Resource Overlays 
 PRODUCT_PACKAGES += \
-    ApertureOverlayRMX2020 \
-    CarrierConfigOverlayRMX2020 \
-    FrameworksResOverlayRMX2020 \
-    SettingsOverlayRMX2020 \
-    SettingsProviderOverlayRMX2020 \
-    SystemUIOverlayRMX2020 \
-    TelephonyOverlayRMX2020 \
-    TetheringResOverlayRMX2020 \
-    WifiResOverlayRMX2020
+    ApertureOverlayRMX2040 \
+    CarrierConfigOverlayRMX2040 \
+    FrameworksResOverlayRMX2040 \
+    SettingsOverlayRMX2040 \
+    SettingsProviderOverlayRMX2040 \
+    SystemUIOverlayRMX2040 \
+    TelephonyOverlayRMX2040 \
+    TetheringResOverlayRMX2040 \
+    WifiResOverlayRMX2040
 
 # Seccomp
 PRODUCT_COPY_FILES += \
@@ -383,7 +383,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.RMX2020
+    android.hardware.usb@1.0-service.RMX2040
 
 # Vibrator
 TARGET_VIBRATOR_SUPPORTS_EFFECTS := true
