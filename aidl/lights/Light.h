@@ -31,3 +31,5 @@ class Lights : public BnLights {
 }  // namespace hardware
 }  // namespace android
 }  // namespace aidl
+
+// some weird change

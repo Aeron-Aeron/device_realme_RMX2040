@@ -22,3 +22,5 @@ int main() {
     ABinderProcess_joinThreadPool();
     return EXIT_FAILURE;  // should not reached
 }
+
+// some weird change

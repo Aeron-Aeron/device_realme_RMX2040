@@ -127,3 +127,4 @@ ndk::ScopedAStatus Lights::getLights(std::vector<HwLight>* lights) {
 }  // namespace hardware
 }  // namespace android
 }  // namespace aidl
+// some weird change
