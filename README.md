@@ -7,7 +7,7 @@ Basic   | Spec Sheet
 CPU     | Octa-core (2x2.0 GHz Cortex-A75 & 6x1.7 GHz Cortex-A55)
 Chipset | MediaTek Helio G80 (12 nm)
 GPU     | Mali-G52 2EEMC2
-Memory  | 3/4 GB
+Memory  | 4 GB
 Shipped Android Version | Android 10, realme UI 1.0 
 Storage | 128 GB (eMMC type)
 MicroSD | Up to 512 GB 
